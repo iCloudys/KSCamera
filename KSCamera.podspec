@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "KSCamera"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "自定义相机"
   s.homepage     = "https://github.com/iCloudys/KSCamera"
   s.license      = "Apache License 2.0"
@@ -8,8 +8,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/iCloudys/KSCamera.git", :tag => "#{s.version}" }
   s.source_files  = "KSCamera", "KSCamera/*.{h,m}"
-  s.exclude_files = "KSCamera/KSCameraBundle.bundle"
-  # s.resource  = "icon.png"
-  # s.resources = "Resources/*.png"
+  s.resource = "KSCamera/KSCameraBundle.bundle"
   s.requires_arc = true
 end
