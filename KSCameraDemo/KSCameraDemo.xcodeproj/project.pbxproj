@@ -13,11 +13,11 @@
 		04C8B9FB218172EE00CB7454 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C8B9FA218172EE00CB7454 /* Assets.xcassets */; };
 		04C8B9FE218172EE00CB7454 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C8B9FC218172EE00CB7454 /* LaunchScreen.storyboard */; };
 		04C8BA01218172EE00CB7454 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C8BA00218172EE00CB7454 /* main.m */; };
-		04C8BA12218173D300CB7454 /* KSCameraLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C8BA08218173D300CB7454 /* KSCameraLocation.m */; };
-		04C8BA13218173D300CB7454 /* KSCameraCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C8BA09218173D300CB7454 /* KSCameraCapture.m */; };
-		04C8BA14218173D300CB7454 /* KSCameraControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C8BA0A218173D300CB7454 /* KSCameraControl.m */; };
-		04C8BA15218173D300CB7454 /* KSCameraController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C8BA0B218173D300CB7454 /* KSCameraController.m */; };
-		04C8BA16218173D300CB7454 /* KSCameraBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04C8BA0C218173D300CB7454 /* KSCameraBundle.bundle */; };
+		04C8BA222181782800CB7454 /* KSCameraLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C8BA182181782800CB7454 /* KSCameraLocation.m */; };
+		04C8BA232181782800CB7454 /* KSCameraCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C8BA192181782800CB7454 /* KSCameraCapture.m */; };
+		04C8BA242181782800CB7454 /* KSCameraControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C8BA1A2181782800CB7454 /* KSCameraControl.m */; };
+		04C8BA252181782800CB7454 /* KSCameraController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C8BA1B2181782800CB7454 /* KSCameraController.m */; };
+		04C8BA262181782800CB7454 /* KSCameraBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04C8BA1C2181782800CB7454 /* KSCameraBundle.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,16 +31,16 @@
 		04C8B9FD218172EE00CB7454 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04C8B9FF218172EE00CB7454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04C8BA00218172EE00CB7454 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		04C8BA08218173D300CB7454 /* KSCameraLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCameraLocation.m; sourceTree = "<group>"; };
-		04C8BA09218173D300CB7454 /* KSCameraCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCameraCapture.m; sourceTree = "<group>"; };
-		04C8BA0A218173D300CB7454 /* KSCameraControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCameraControl.m; sourceTree = "<group>"; };
-		04C8BA0B218173D300CB7454 /* KSCameraController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCameraController.m; sourceTree = "<group>"; };
-		04C8BA0C218173D300CB7454 /* KSCameraBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KSCameraBundle.bundle; sourceTree = "<group>"; };
-		04C8BA0D218173D300CB7454 /* KSCameraLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCameraLocation.h; sourceTree = "<group>"; };
-		04C8BA0E218173D300CB7454 /* KSCameraDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCameraDefines.h; sourceTree = "<group>"; };
-		04C8BA0F218173D300CB7454 /* KSCameraControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCameraControl.h; sourceTree = "<group>"; };
-		04C8BA10218173D300CB7454 /* KSCameraCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCameraCapture.h; sourceTree = "<group>"; };
-		04C8BA11218173D300CB7454 /* KSCameraController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCameraController.h; sourceTree = "<group>"; };
+		04C8BA182181782800CB7454 /* KSCameraLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCameraLocation.m; sourceTree = "<group>"; };
+		04C8BA192181782800CB7454 /* KSCameraCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCameraCapture.m; sourceTree = "<group>"; };
+		04C8BA1A2181782800CB7454 /* KSCameraControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCameraControl.m; sourceTree = "<group>"; };
+		04C8BA1B2181782800CB7454 /* KSCameraController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCameraController.m; sourceTree = "<group>"; };
+		04C8BA1C2181782800CB7454 /* KSCameraBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KSCameraBundle.bundle; sourceTree = "<group>"; };
+		04C8BA1D2181782800CB7454 /* KSCameraLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCameraLocation.h; sourceTree = "<group>"; };
+		04C8BA1E2181782800CB7454 /* KSCameraDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCameraDefines.h; sourceTree = "<group>"; };
+		04C8BA1F2181782800CB7454 /* KSCameraControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCameraControl.h; sourceTree = "<group>"; };
+		04C8BA202181782800CB7454 /* KSCameraCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCameraCapture.h; sourceTree = "<group>"; };
+		04C8BA212181782800CB7454 /* KSCameraController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCameraController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 		04C8B9E5218172EB00CB7454 = {
 			isa = PBXGroup;
 			children = (
-				04C8BA07218173D300CB7454 /* KSCamera */,
+				04C8BA172181782800CB7454 /* KSCamera */,
 				04C8B9F0218172EB00CB7454 /* KSCameraDemo */,
 				04C8B9EF218172EB00CB7454 /* Products */,
 			);
@@ -87,21 +87,22 @@
 			path = KSCameraDemo;
 			sourceTree = "<group>";
 		};
-		04C8BA07218173D300CB7454 /* KSCamera */ = {
+		04C8BA172181782800CB7454 /* KSCamera */ = {
 			isa = PBXGroup;
 			children = (
-				04C8BA08218173D300CB7454 /* KSCameraLocation.m */,
-				04C8BA09218173D300CB7454 /* KSCameraCapture.m */,
-				04C8BA0A218173D300CB7454 /* KSCameraControl.m */,
-				04C8BA0B218173D300CB7454 /* KSCameraController.m */,
-				04C8BA0C218173D300CB7454 /* KSCameraBundle.bundle */,
-				04C8BA0D218173D300CB7454 /* KSCameraLocation.h */,
-				04C8BA0E218173D300CB7454 /* KSCameraDefines.h */,
-				04C8BA0F218173D300CB7454 /* KSCameraControl.h */,
-				04C8BA10218173D300CB7454 /* KSCameraCapture.h */,
-				04C8BA11218173D300CB7454 /* KSCameraController.h */,
+				04C8BA182181782800CB7454 /* KSCameraLocation.m */,
+				04C8BA192181782800CB7454 /* KSCameraCapture.m */,
+				04C8BA1A2181782800CB7454 /* KSCameraControl.m */,
+				04C8BA1B2181782800CB7454 /* KSCameraController.m */,
+				04C8BA1C2181782800CB7454 /* KSCameraBundle.bundle */,
+				04C8BA1D2181782800CB7454 /* KSCameraLocation.h */,
+				04C8BA1E2181782800CB7454 /* KSCameraDefines.h */,
+				04C8BA1F2181782800CB7454 /* KSCameraControl.h */,
+				04C8BA202181782800CB7454 /* KSCameraCapture.h */,
+				04C8BA212181782800CB7454 /* KSCameraController.h */,
 			);
-			path = KSCamera;
+			name = KSCamera;
+			path = ../KSCamera;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,7 +164,7 @@
 			files = (
 				04C8B9FE218172EE00CB7454 /* LaunchScreen.storyboard in Resources */,
 				04C8B9FB218172EE00CB7454 /* Assets.xcassets in Resources */,
-				04C8BA16218173D300CB7454 /* KSCameraBundle.bundle in Resources */,
+				04C8BA262181782800CB7454 /* KSCameraBundle.bundle in Resources */,
 				04C8B9F9218172EB00CB7454 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -176,11 +177,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				04C8B9F6218172EB00CB7454 /* ViewController.m in Sources */,
-				04C8BA12218173D300CB7454 /* KSCameraLocation.m in Sources */,
-				04C8BA14218173D300CB7454 /* KSCameraControl.m in Sources */,
-				04C8BA15218173D300CB7454 /* KSCameraController.m in Sources */,
+				04C8BA222181782800CB7454 /* KSCameraLocation.m in Sources */,
+				04C8BA242181782800CB7454 /* KSCameraControl.m in Sources */,
+				04C8BA252181782800CB7454 /* KSCameraController.m in Sources */,
 				04C8BA01218172EE00CB7454 /* main.m in Sources */,
-				04C8BA13218173D300CB7454 /* KSCameraCapture.m in Sources */,
+				04C8BA232181782800CB7454 /* KSCameraCapture.m in Sources */,
 				04C8B9F3218172EB00CB7454 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
