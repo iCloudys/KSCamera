@@ -18,6 +18,7 @@
 		04C8BA242181782800CB7454 /* KSCameraControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C8BA1A2181782800CB7454 /* KSCameraControl.m */; };
 		04C8BA252181782800CB7454 /* KSCameraController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C8BA1B2181782800CB7454 /* KSCameraController.m */; };
 		04C8BA262181782800CB7454 /* KSCameraBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04C8BA1C2181782800CB7454 /* KSCameraBundle.bundle */; };
+		04C8BA2A2181848000CB7454 /* KSCamera.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 04C8BA292181847F00CB7454 /* KSCamera.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		04C8BA1F2181782800CB7454 /* KSCameraControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCameraControl.h; sourceTree = "<group>"; };
 		04C8BA202181782800CB7454 /* KSCameraCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCameraCapture.h; sourceTree = "<group>"; };
 		04C8BA212181782800CB7454 /* KSCameraController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCameraController.h; sourceTree = "<group>"; };
+		04C8BA292181847F00CB7454 /* KSCamera.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = KSCamera.podspec; path = ../KSCamera.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 		04C8B9E5218172EB00CB7454 = {
 			isa = PBXGroup;
 			children = (
+				04C8BA292181847F00CB7454 /* KSCamera.podspec */,
 				04C8BA172181782800CB7454 /* KSCamera */,
 				04C8B9F0218172EB00CB7454 /* KSCameraDemo */,
 				04C8B9EF218172EB00CB7454 /* Products */,
@@ -163,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04C8B9FE218172EE00CB7454 /* LaunchScreen.storyboard in Resources */,
+				04C8BA2A2181848000CB7454 /* KSCamera.podspec in Resources */,
 				04C8B9FB218172EE00CB7454 /* Assets.xcassets in Resources */,
 				04C8BA262181782800CB7454 /* KSCameraBundle.bundle in Resources */,
 				04C8B9F9218172EB00CB7454 /* Main.storyboard in Resources */,
