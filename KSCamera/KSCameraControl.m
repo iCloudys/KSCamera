@@ -7,6 +7,7 @@
 //
 
 #import "KSCameraControl.h"
+#import "KSCameraConfigure.h"
 
 @interface KSCameraControl()
 {
@@ -52,21 +53,18 @@
         self.tongueButton = [UIButton buttonWithType:UIButtonTypeCustom];
         self.tongueButton.tag = 0;
         [self.tongueButton setTitle:@"舌苔" forState:UIControlStateNormal];
-//        [self.tongueButton setTitleColor:ThemeColor forState:UIControlStateSelected];
         [self.tongueButton addTarget:self action:@selector(locationChangeAction:) forControlEvents:UIControlEventTouchUpInside];
         [self addSubview:self.tongueButton];
         
         self.faceButton = [UIButton buttonWithType:UIButtonTypeCustom];
         self.faceButton.tag = 1;
         [self.faceButton setTitle:@"面部" forState:UIControlStateNormal];
-//        [self.faceButton setTitleColor:ThemeColor forState:UIControlStateSelected];
         [self.faceButton addTarget:self action:@selector(locationChangeAction:) forControlEvents:UIControlEventTouchUpInside];
         [self addSubview:self.faceButton];
         
         self.handButton = [UIButton buttonWithType:UIButtonTypeCustom];
         self.handButton.tag = 2;
         [self.handButton setTitle:@"手心" forState:UIControlStateNormal];
-//        [self.handButton setTitleColor:ThemeColor forState:UIControlStateSelected];
         [self.handButton addTarget:self action:@selector(locationChangeAction:) forControlEvents:UIControlEventTouchUpInside];
         [self addSubview:self.handButton];
         
@@ -151,6 +149,13 @@
     _delegateHas.cameraControlTakePhoto = [delegate respondsToSelector:@selector(cameraControlTakePhoto:)];
     _delegateHas.cameraControlFocusPoint = [delegate respondsToSelector:@selector(cameraControl:focusPoint:)];
     _delegateHas.cameraControlDidChangeLocation = [delegate respondsToSelector:@selector(cameraControl:didChangeLocation:)];
+}
+
+- (void)setConfigure:(KSCameraConfigure *)configure{
+    _configure = configure;
+    [self.tongueButton setTitleColor:configure.tintColor forState:UIControlStateSelected];
+    [self.faceButton setTitleColor:configure.tintColor forState:UIControlStateSelected];
+    [self.handButton setTitleColor:configure.tintColor forState:UIControlStateSelected];
 }
 
 - (void)setLocation:(KSInterfaceLocation)location{

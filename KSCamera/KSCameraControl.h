@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "KSCameraDefines.h"
 
+@class KSCameraConfigure;
 @class KSCameraControl;
 @protocol KSCameraControlDelegate <NSObject>
 
@@ -21,6 +22,8 @@
 
 @end
 @interface KSCameraControl : UIView
+
+@property (nonatomic, strong) KSCameraConfigure* configure;
 
 @property (nonatomic, assign) KSInterfaceLocation location;
 

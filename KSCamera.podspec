@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "KSCamera"
-  s.version      = "0.0.2"
+  s.version      = "0.1.0"
   s.summary      = "自定义相机"
   s.homepage     = "https://github.com/iCloudys/KSCamera"
   s.license      = "Apache License 2.0"

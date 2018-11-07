@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "KSCameraDefines.h"
+#import "KSCameraConfigure.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -21,6 +22,10 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 @interface KSCameraController : UIViewController
+
+- (instancetype)initWithConfigure:(KSCameraConfigure*)configure NS_DESIGNATED_INITIALIZER;
+
+@property (nonatomic, readonly ,strong) KSCameraConfigure* configure;
 
 @property (nonatomic, weak) id<KSCameraControllerDelegate> delegate;
 

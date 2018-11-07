@@ -25,7 +25,11 @@ KSCameraControllerDelegate>
 
 - (IBAction)takePhotosAction:(UIButton *)sender {
     
-    KSCameraController* camera = [[KSCameraController alloc] init];
+    KSCameraConfigure* configure = [[KSCameraConfigure alloc] init];
+    configure.tintColor = [UIColor redColor];
+    
+    KSCameraController* camera = [[KSCameraController alloc] initWithConfigure:configure];
+    
     camera.delegate = self;
     [self presentViewController:camera animated:YES completion:NULL];
 }

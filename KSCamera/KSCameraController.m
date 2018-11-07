@@ -32,6 +32,22 @@ KSCameraCaptureDelegate>
 
 @implementation KSCameraController
 
+- (instancetype)initWithConfigure:(KSCameraConfigure *)configure{
+    self = [super initWithNibName:nil bundle:nil];
+    if (self) {
+        _configure = configure;
+    }
+    return self;
+}
+
+- (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil{
+    return [self initWithConfigure:[KSCameraConfigure new]];
+}
+
+- (instancetype)initWithCoder:(NSCoder *)aDecoder{
+    return [self initWithConfigure:[KSCameraConfigure new]];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -43,6 +59,7 @@ KSCameraCaptureDelegate>
     [self.view.layer addSublayer:self.capture.previewLayer];
     
     self.control = [[KSCameraControl alloc] init];
+    self.control.configure = self.configure;
     self.control.delegate = self;
     self.control.location = self.location;
     [self.view addSubview:self.control];

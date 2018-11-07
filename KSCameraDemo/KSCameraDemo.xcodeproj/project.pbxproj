@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04C604682192DA6200BA9BD1 /* KSCameraConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C604672192DA6200BA9BD1 /* KSCameraConfigure.m */; };
 		04C8B9F3218172EB00CB7454 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C8B9F2218172EB00CB7454 /* AppDelegate.m */; };
 		04C8B9F6218172EB00CB7454 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C8B9F5218172EB00CB7454 /* ViewController.m */; };
 		04C8B9F9218172EB00CB7454 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C8B9F7218172EB00CB7454 /* Main.storyboard */; };
@@ -22,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04C604662192DA6200BA9BD1 /* KSCameraConfigure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSCameraConfigure.h; sourceTree = "<group>"; };
+		04C604672192DA6200BA9BD1 /* KSCameraConfigure.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSCameraConfigure.m; sourceTree = "<group>"; };
 		04C8B9EE218172EB00CB7454 /* KSCameraDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSCameraDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C8B9F1218172EB00CB7454 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04C8B9F2218172EB00CB7454 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -103,6 +106,8 @@
 				04C8BA1F2181782800CB7454 /* KSCameraControl.h */,
 				04C8BA202181782800CB7454 /* KSCameraCapture.h */,
 				04C8BA212181782800CB7454 /* KSCameraController.h */,
+				04C604662192DA6200BA9BD1 /* KSCameraConfigure.h */,
+				04C604672192DA6200BA9BD1 /* KSCameraConfigure.m */,
 			);
 			name = KSCamera;
 			path = ../KSCamera;
@@ -187,6 +192,7 @@
 				04C8BA01218172EE00CB7454 /* main.m in Sources */,
 				04C8BA232181782800CB7454 /* KSCameraCapture.m in Sources */,
 				04C8B9F3218172EB00CB7454 /* AppDelegate.m in Sources */,
+				04C604682192DA6200BA9BD1 /* KSCameraConfigure.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
